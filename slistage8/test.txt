@@ -1,0 +1,41 @@
+decl
+    int result,factorial(int n),ab;
+    bool c[10];
+enddecl
+int ab(){
+decl
+int f;
+enddecl
+begin
+     f=1;
+    return f;
+end
+}
+
+
+int factorial(int n){
+    decl
+        int f,k;
+    enddecl
+    begin
+        if(n<=1) then
+            f = 1;
+        else
+            f = n * factorial(n-1); 
+        endif;
+        
+        return f;
+    end
+}
+int main(){
+    decl
+        int a,b;
+    enddecl
+    begin
+        read(a);
+        c=5;
+        result = factorial(a);
+        write(result);
+        return 1;
+    end
+}
