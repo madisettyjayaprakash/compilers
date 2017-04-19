@@ -1,0 +1,9 @@
+decl
+int a[10],n;
+enddecl
+begin
+read(n);
+write(n);
+read(a[5]);
+write(a[5]);
+end

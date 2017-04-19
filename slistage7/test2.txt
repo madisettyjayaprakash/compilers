@@ -1,0 +1,27 @@
+decl
+int i,j,k,a[10],l;
+enddecl
+begin
+read(i);
+j=0;
+if(i>5)then
+   read(a[5]);
+   k=5;
+   if(i<10)then
+     read(a[i]);
+     write(a[i]);
+      j=5;
+      while(j>0)do
+       write(j);
+       j=j-1;
+      endwhile;
+   else 
+     read(a[i-2]);
+     write(a[i-2]);
+   endif;
+else
+read(a[6]);
+k=6;
+endif;
+write(a[k]);
+end
