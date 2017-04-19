@@ -1,0 +1,12 @@
+decl
+int i,j,a[10],n,k;
+enddecl
+begin
+read(n);
+i=0;
+while(i<n)do
+read(a[i]);
+write(a[i]);
+i=i+1;
+endwhile;
+end
